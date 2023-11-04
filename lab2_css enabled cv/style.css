@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #F5EBEB; /* A different shade of light peach for the 
+    overall background */
+    }
+    .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #E4D0D0; /* Lighter brown for the right section */
+    display: flex;
+    }
+    .left-section {
+    flex: 1;
+    padding: 20px; /* Add padding for better alignment */
+    background-color: #D5B4B4; /* Slightly darker shade of brown for the left 
+    division */
+    margin-right: 10px; /* Slightly adjust the left division to the left */
+    }
+    .right-section {
+    flex: 2;
+    }
+    header {
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    h1, .subtitle, h2 {
+    color: #331D2C; /* Titles and subtitles are colored dark brown */
+    }
+    .about-me, .education, .skills, .projects, .contact {
+    margin-bottom: 30px;
+    }
+    ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    }
+    ul li {
+    margin-bottom: 5px;
+    }
+    h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    }
+    p {
+    margin: 0;
+    }
+    strong {
+    font-weight: bold;
+    }

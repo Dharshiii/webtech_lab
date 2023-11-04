@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    }
+    form {
+    margin: 20px auto;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    }
+    label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    }
+    input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    .error {
+    color: red;
+    font-size: 14px;
+    text-align: left;
+    }
+    input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    }
+    input[type="submit"]:hover {
+    background-color: #45a049;
+    }
+    /* Adding frame around the form */
+    form {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    }
+    /* Styling the form inputs */
+    input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    }
+    /* Error message styling */
+    .error {
+    color: rgb(192, 0, 0);
+    font-size: 14px;
+    text-align: left;
+    }
+    /* Additional styling for labels */
+    label {
+    color: #333;
+    font-size: 16px;
+    }
+    /* Styling for the submit button */
+    input[type="submit"] {
+    background-color: #015d04;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    }
+    input[type="submit"]:hover {
+    background-color: #45a049;
+    }
+    
